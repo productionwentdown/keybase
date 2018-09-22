@@ -1,7 +1,7 @@
 #
 # Build stage
 #
-FROM golang:1.9-alpine3.6 as builder
+FROM golang:1.11-alpine3.8 as builder
 
 # deps
 RUN apk --no-cache add git build-base
